@@ -10,7 +10,6 @@ const User = require('../models/User')
 const Order = require('../models/Order')
 const ExpressError = require('../ErrorHandler/ExpressError');
 
-
 const validateAdmin = (req, res, next)=>{
   let {error} =  AdminSchema.validate(req.body)
     if(error){

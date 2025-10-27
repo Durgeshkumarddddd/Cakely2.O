@@ -25,7 +25,6 @@ const validateUser = (req, res, next)=>{
    }
 }
 
-
 // update shipping address
 router.get('/Address/update',isUserAuthenticated, async (req, res) => {
     
