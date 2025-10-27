@@ -1,5 +1,6 @@
 const Admin = require('./models/admin')
 const User = require('./models/User') 
+
 // Middleware to Check Admin Authentication
 module.exports.isAdminAuthenticated = (req, res, next)=> {
     if (req.isAuthenticated() && req.user instanceof Admin) {
@@ -8,8 +9,8 @@ module.exports.isAdminAuthenticated = (req, res, next)=> {
     req.flash('error', 'Please log in as Admin to access this page.');
     res.redirect('/admin/login');
   }
-  
-  // Middleware to Check User Authentication
+
+// Middleware to Check User Authentication
  module.exports.isUserAuthenticated = (req, res, next)=>{
     if (req.isAuthenticated() && req.user instanceof User) {
       return next();
