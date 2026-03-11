@@ -205,9 +205,9 @@ http://localhost:3000
 ---
 
 # 📸 Video
-⭐ If you like this project, please give it a **Star on GitHub**!hments/assets/b1cdbfa4-6b84-4cc7-bf51-b439443869ce
+hments/assets/b1cdbfa4-6b84-4cc7-bf51-b439443869ce
 
-You can add screenshots here.
+
 
 Example:
 
